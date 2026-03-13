@@ -2,11 +2,11 @@ import Image from "next/image";
 
 // Photos from /public/main photos/ — add more filenames here as you drop in new images
 const stripPhotos = [
-  "/main%20photos/IMG_0420.JPG",
-  "/main%20photos/IMG_1958.jpeg",
-  "/main%20photos/IMG_4363.jpeg",
-  "/main%20photos/IMG_5900.jpeg",
-  "/main%20photos/472326607_18480429754018863_7057591190755462964_n.jpg",
+  "/Main%20photos/IMG_0420.JPG",
+  "/Main%20photos/IMG_1958.jpeg",
+  "/Main%20photos/IMG_4363.jpeg",
+  "/Main%20photos/IMG_5900.jpeg",
+  "/Main%20photos/472326607_18480429754018863_7057591190755462964_n.jpg",
 ];
 
 // Duplicate for seamless infinite loop
@@ -65,6 +65,7 @@ export default function AboutSection() {
                 Derek
                 <span className="absolute -bottom-1 left-0 w-full h-1 bg-yellow-400 rounded" />
               </span>
+              ?
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
               <p>
@@ -116,7 +117,7 @@ export default function AboutSection() {
               {/* Photo container */}
               <div className="relative w-72 h-80 sm:w-80 sm:h-96 bg-gray-100 rounded-2xl overflow-hidden border border-gray-200">
                 <Image
-                  src="/profile%20photo/IMG_5144.PNG"
+                  src="/Profile%20photo/IMG_5144.PNG"
                   alt="Derek Blidy"
                   fill
                   className="object-cover"

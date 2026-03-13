@@ -38,7 +38,7 @@ const albums: YearAlbum[] = [
     year: 2025,
     shuffle: true,
     photos: [
-      { id: 700, src: "/gallery/2025/20251213_175656%281%29.JPG", alt: "2025", caption: "2025" },
+      { id: 700, src: "/gallery/2025/202512131756528129.JPG", alt: "2025", caption: "2025" },
       { id: 701, src: "/gallery/2025/FullSizeRender 2.jpeg",      alt: "2025", caption: "2025" },
       { id: 702, src: "/gallery/2025/FullSizeRender.JPEG",        alt: "2025", caption: "2025" },
       { id: 703, src: "/gallery/2025/IMG_0006.JPG",               alt: "2025", caption: "2025" },
@@ -418,18 +418,21 @@ const albums: YearAlbum[] = [
 ];
 
 const years = albums.map((a) => a.year);
-const allPhotographyPhotos = albums.flatMap((a) =>
-  a.photos.filter((p) => p.photography)
-);
+
+// ─── PHOTOGRAPHY ─────────────────────────────────────────────────────────────
+// Add photos from /public/gallery/photography/ here.
+const allPhotographyPhotos: Photo[] = [
+  { id: 9000, src: "/gallery/photography/IMG_2778.JPG", alt: "Photography", caption: "" },
+];
 
 type Filter = number | "photography";
 
 // ─── COMPONENT ───────────────────────────────────────────────────────────────
 export default function GallerySection() {
-  const [activeFilter, setActiveFilter] = useState<Filter>(years[0]);
+  const [activeFilter, setActiveFilter] = useState<Filter>("photography");
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [displayedPhotos, setDisplayedPhotos] = useState<Photo[]>(
-    albums.find((a) => a.year === years[0])?.photos ?? []
+    allPhotographyPhotos
   );
 
   const selected = selectedIndex !== null ? displayedPhotos[selectedIndex] : null;

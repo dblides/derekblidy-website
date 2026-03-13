@@ -48,12 +48,12 @@ export default function HeroSection() {
             >
               Get to know me
             </button>
-            <button
-              onClick={() => scrollTo("#content")}
+            <Link
+              href="/content"
               className="border-2 border-gray-200 hover:border-gray-400 text-gray-700 font-semibold px-7 py-3.5 rounded-full transition-colors text-sm"
             >
               What I&apos;m into
-            </button>
+            </Link>
           </div>
 
           {/* Quick nav */}

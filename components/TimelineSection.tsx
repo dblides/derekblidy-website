@@ -19,14 +19,89 @@ const entries: TimelineEntry[] = [
     date: "February 2026",
   },
   {
+    emoji: "✈️",
+    description: "First trip to Japan",
+    date: "November 2025",
+  },
+  {
+    emoji: "🎤",
+    description: "Preach my first sermon",
+    date: "May 2025",
+  },
+  {
+    emoji: "✂️",
+    description: "I become good at cutting my own hair",
+    date: "January 2025",
+  },
+  {
+    emoji: "💼",
+    description: "Quit corporate world, went full time on Talas",
+    date: "September 2024",
+  },
+  {
     emoji: "🤖",
     description: "Founded Talas",
-    date: "2024",
+    date: "January 2024",
+  },
+  {
+    emoji: "✂️",
+    description: "I give up cutting my own hair",
+    date: "January 2024",
+  },
+  {
+    emoji: "🌍",
+    description: "First trip to Europe",
+    date: "April 2023",
   },
   {
     emoji: "✝️",
-    description: "Joined Oasis Church",
-    date: "2022",
+    description: "Join Oasis Church Chicago's Senior Leadership Team",
+    date: "February 2023",
+  },
+  {
+    emoji: "✂️",
+    description: "I try to cut my own hair",
+    date: "January 2023",
+  },
+  {
+    emoji: "🏃",
+    description: "Ran a solo marathon",
+    date: "October 2022",
+  },
+  {
+    emoji: "🦵",
+    description: "Started running 2 miles a day",
+    date: "April 2022",
+  },
+  {
+    emoji: "📖",
+    description: "Read Can't Hurt Me",
+    date: "March 2022",
+  },
+  {
+    emoji: "🎉",
+    description: "Wedding re-do celebration",
+    date: "August 2021",
+  },
+  {
+    emoji: "🐶",
+    description: "Adopted Milly",
+    date: "April 2021",
+  },
+  {
+    emoji: "📚",
+    description: "Read Atomic Habits — snowballed into a lot of self transformation",
+    date: "March 2021",
+  },
+  {
+    emoji: "📖",
+    description: "Took up reading as a hobby",
+    date: "February 2021",
+  },
+  {
+    emoji: "✝️",
+    description: "Joined Oasis Church Chicago",
+    date: "May 2020",
   },
   {
     emoji: "💒",
@@ -49,9 +124,24 @@ const entries: TimelineEntry[] = [
     date: "July 2019",
   },
   {
+    emoji: "💼",
+    description: "Start first post-grad job at Coyote Logistics",
+    date: "July 2019",
+  },
+  {
     emoji: "🎓",
     description: "Graduate college",
     date: "May 2019",
+  },
+  {
+    emoji: "➕",
+    description: "Became a cofounder of PlayTogether",
+    date: "December 2018",
+  },
+  {
+    emoji: "🎥",
+    description: "Videography internship at Summit Ministries, CO",
+    date: "June 2018",
   },
   {
     emoji: "🤝",
@@ -62,6 +152,11 @@ const entries: TimelineEntry[] = [
     emoji: "🏫",
     description: "Start Illinois State",
     date: "August 2015",
+  },
+  {
+    emoji: "👶",
+    description: "Born",
+    date: "1997",
   },
 ];
 
