@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --accent: #FACC15;
+  --accent-dark: #EAB308;
+  --foreground: #111111;
+  --background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Yellow highlight utility */
+.accent-underline {
+  text-decoration: underline;
+  text-decoration-color: #FACC15;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+/* Section transitions */
+section {
+  scroll-margin-top: 72px;
+}
