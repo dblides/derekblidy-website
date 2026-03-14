@@ -15,8 +15,13 @@ const entries: TimelineEntry[] = [
   },
   {
     emoji: "🏠",
-    description: "Buy home in Berwyn, IL",
+    description: "Purchased home",
     date: "February 2026",
+  },
+  {
+    emoji: "🥾",
+    description: "Hike Kumano Kodo trail",
+    date: "November 2025",
   },
   {
     emoji: "✈️",
@@ -29,11 +34,6 @@ const entries: TimelineEntry[] = [
     date: "May 2025",
   },
   {
-    emoji: "✂️",
-    description: "I become good at cutting my own hair",
-    date: "January 2025",
-  },
-  {
     emoji: "💼",
     description: "Quit corporate world, went full time on Talas",
     date: "September 2024",
@@ -41,11 +41,6 @@ const entries: TimelineEntry[] = [
   {
     emoji: "🤖",
     description: "Founded Talas",
-    date: "January 2024",
-  },
-  {
-    emoji: "✂️",
-    description: "I give up cutting my own hair",
     date: "January 2024",
   },
   {
@@ -60,7 +55,7 @@ const entries: TimelineEntry[] = [
   },
   {
     emoji: "✂️",
-    description: "I try to cut my own hair",
+    description: "I learn to cut my own hair",
     date: "January 2023",
   },
   {
@@ -77,6 +72,16 @@ const entries: TimelineEntry[] = [
     emoji: "📖",
     description: "Read Can't Hurt Me",
     date: "March 2022",
+  },
+  {
+    emoji: "💼",
+    description: "Started working at Stryker",
+    date: "October 2021",
+  },
+  {
+    emoji: "🖼️",
+    description: "Bought my first NFT",
+    date: "September 2021",
   },
   {
     emoji: "🎉",
@@ -97,6 +102,11 @@ const entries: TimelineEntry[] = [
     emoji: "📖",
     description: "Took up reading as a hobby",
     date: "February 2021",
+  },
+  {
+    emoji: "💰",
+    description: "Bought crypto for the first time",
+    date: "November 2020",
   },
   {
     emoji: "✝️",
@@ -120,7 +130,7 @@ const entries: TimelineEntry[] = [
   },
   {
     emoji: "💍",
-    description: "Engaged",
+    description: "Propose to Kayla",
     date: "July 2019",
   },
   {
@@ -139,9 +149,29 @@ const entries: TimelineEntry[] = [
     date: "December 2018",
   },
   {
+    emoji: "❤️",
+    description: "Met Kayla",
+    date: "September 2018",
+  },
+  {
+    emoji: "✝️",
+    description: "Rededicated my life to Christ",
+    date: "August 2018",
+  },
+  {
     emoji: "🎥",
     description: "Videography internship at Summit Ministries, CO",
     date: "June 2018",
+  },
+  {
+    emoji: "🎬",
+    description: "Campus rep for Universal Pictures",
+    date: "December 2017",
+  },
+  {
+    emoji: "🎨",
+    description: "Brand Ambassador for Adobe video editing",
+    date: "November 2017",
   },
   {
     emoji: "🤝",
@@ -152,6 +182,21 @@ const entries: TimelineEntry[] = [
     emoji: "🏫",
     description: "Start Illinois State",
     date: "August 2015",
+  },
+  {
+    emoji: "🏫",
+    description: "Started public high school",
+    date: "August 2011",
+  },
+  {
+    emoji: "✝️",
+    description: "Became a Christian and got baptized",
+    date: "April 2006",
+  },
+  {
+    emoji: "📚",
+    description: "Started homeschooling",
+    date: "August 2000",
   },
   {
     emoji: "👶",

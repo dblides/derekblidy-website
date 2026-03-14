@@ -423,6 +423,10 @@ const years = albums.map((a) => a.year);
 // Add photos from /public/gallery/photography/ here.
 const allPhotographyPhotos: Photo[] = [
   { id: 9000, src: "/gallery/photography/IMG_2778.JPG", alt: "Photography", caption: "" },
+  { id: 9001, src: "/gallery/photography/IMG_0525.jpg", alt: "Photography", caption: "" },
+  { id: 9002, src: "/gallery/photography/IMG_1071.jpg", alt: "Photography", caption: "" },
+  { id: 9003, src: "/gallery/photography/IMG_5213.jpg", alt: "Photography", caption: "" },
+  { id: 9004, src: "/gallery/photography/IMG_9403.jpg", alt: "Photography", caption: "" },
 ];
 
 type Filter = number | "photography";

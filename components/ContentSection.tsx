@@ -31,8 +31,12 @@ const contentByYear: YearContent[] = [
         category: "Books",
         emoji: "📚",
         items: [
-          // Add your 2026 books here
-          // { title: "...", creator: "...", note: "..." },
+          { title: "The Bible (in progress)", creator: "", note: "" },
+          { title: "Chess Story", creator: "Stefan Zweig", note: "" },
+          { title: "Ashes of Man", creator: "Christopher Ruocchio", note: "" },
+          { title: "The Strength of the Few", creator: "James Islington", note: "" },
+          { title: "How to Fail at Almost Everything and Still Win Big", creator: "Scott Adams", note: "" },
+          { title: "Economics in One Lesson", creator: "Henry Hazlitt", note: "" },
         ],
       },
       {
@@ -65,66 +69,45 @@ const contentByYear: YearContent[] = [
         category: "Books",
         emoji: "📚",
         items: [
-          {
-            title: "The Creative Act",
-            creator: "Rick Rubin",
-            note: "A meditation on creativity — not just for musicians but for anyone who makes things.",
-          },
-          {
-            title: "Thinking, Fast and Slow",
-            creator: "Daniel Kahneman",
-            note: "Essential reading for understanding how we actually make decisions.",
-          },
-          {
-            title: "Show Your Work",
-            creator: "Austin Kleon",
-            note: "Short, punchy, and genuinely useful for anyone trying to share their work online.",
-          },
+          { title: "The Bible", creator: "", note: "" },
+          { title: "The Bear", creator: "Andrew Krivak", note: "" },
+          { title: "Artificial Wisdom", creator: "Thomas Weaver", note: "" },
+          { title: "Project Hail Mary", creator: "Andy Weir", note: "" },
+          { title: "The Kite Runner", creator: "Khaled Hosseini", note: "" },
+          { title: "Best Loser Wins", creator: "Tom Hougaard", note: "" },
+          { title: "The Will of the Many", creator: "James Islington", note: "" },
+          { title: "Total Forgiveness", creator: "R.T. Kendall", note: "" },
+          { title: "11/22/63", creator: "Stephen King", note: "" },
+          { title: "The Screwtape Letters", creator: "C.S. Lewis", note: "" },
+          { title: "Tuesdays with Morrie", creator: "Mitch Albom", note: "" },
+          { title: "The Brothers Karamazov", creator: "Fyodor Dostoevsky", note: "" },
+          { title: "The Blacktongue Thief", creator: "Christopher Buehlman", note: "" },
+          { title: "Die with Zero", creator: "Bill Perkins", note: "" },
+          { title: "The 48 Laws of Power", creator: "Robert Greene", note: "" },
+          { title: "Empire of Silence", creator: "Christopher Ruocchio", note: "" },
+          { title: "Howling Dark", creator: "Christopher Ruocchio", note: "" },
+          { title: "Sweaty Equity", creator: "Mike Shannon", note: "" },
+          { title: "Demon in White", creator: "Christopher Ruocchio", note: "" },
+          { title: "The Silver Chair", creator: "C.S. Lewis", note: "" },
+          { title: "Kingdoms of Death", creator: "Christopher Ruocchio", note: "" },
+          { title: "The Last Battle", creator: "C.S. Lewis", note: "" },
+          { title: "The Psychology of Money", creator: "Morgan Housel", note: "" },
         ],
       },
       {
         category: "Music",
         emoji: "🎵",
-        items: [
-          {
-            title: "Blonde",
-            creator: "Frank Ocean",
-            note: "Still one of the most emotionally complex albums I've ever heard.",
-          },
-          {
-            title: "Kind of Blue",
-            creator: "Miles Davis",
-            note: "Perfect for focus. Perfect for anything, really.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [
-          {
-            title: "Acquired",
-            note: "Deep-dive business history with a level of research that feels almost academic.",
-          },
-          {
-            title: "99% Invisible",
-            note: "Design and architecture stories you never knew you needed to hear.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [
-          {
-            title: "Obsidian",
-            note: "My second brain. Local-first, Markdown-based note-taking that actually scales.",
-          },
-          {
-            title: "Raycast",
-            note: "A spotlight replacement that's transformed how I navigate my Mac.",
-          },
-        ],
+        items: [],
       },
     ],
   },
@@ -135,61 +118,43 @@ const contentByYear: YearContent[] = [
         category: "Books",
         emoji: "📚",
         items: [
-          {
-            title: "The Almanack of Naval Ravikant",
-            creator: "Eric Jorgenson",
-            note: "Distilled wisdom on wealth, happiness, and how to think clearly.",
-          },
-          {
-            title: "A World Without Email",
-            creator: "Cal Newport",
-            note: "Convinced me that constant connectivity is a productivity killer, not a feature.",
-          },
+          { title: "The Bible", creator: "", note: "" },
+          { title: "The Voyage of the Dawn Treader", creator: "C.S. Lewis", note: "" },
+          { title: "Prince Caspian", creator: "C.S. Lewis", note: "" },
+          { title: "The Horse and His Boy", creator: "C.S. Lewis", note: "" },
+          { title: "Stages of the Soul", creator: "Nancy Kane", note: "" },
+          { title: "The Lion, the Witch and the Wardrobe", creator: "C.S. Lewis", note: "" },
+          { title: "The Magician's Nephew", creator: "C.S. Lewis", note: "" },
+          { title: "How Will You Measure Your Life?", creator: "Clayton Christensen", note: "" },
+          { title: "Antifragile", creator: "Nassim Nicholas Taleb", note: "" },
+          { title: "Surrendered to the Holy Spirit", creator: "Hayley Braun", note: "" },
+          { title: "Red Rising", creator: "Pierce Brown", note: "" },
+          { title: "Golden Son", creator: "Pierce Brown", note: "" },
+          { title: "Morning Star", creator: "Pierce Brown", note: "" },
+          { title: "Iron Gold", creator: "Pierce Brown", note: "" },
+          { title: "Light Bringer", creator: "Pierce Brown", note: "" },
+          { title: "Dark Age", creator: "Pierce Brown", note: "" },
+          { title: "Blue Ocean Strategy", creator: "W. Chan Kim & Renée Mauborgne", note: "" },
+          { title: "Death's End", creator: "Liu Cixin", note: "" },
+          { title: "Effortless", creator: "Greg McKeown", note: "" },
+          { title: "Pitch Anything", creator: "Oren Klaff", note: "" },
+          { title: "Absolute Surrender", creator: "Andrew Murray", note: "" },
         ],
       },
       {
         category: "Music",
         emoji: "🎵",
-        items: [
-          {
-            title: "Random Access Memories",
-            creator: "Daft Punk",
-            note: "A masterclass in texture and feel.",
-          },
-          {
-            title: "Currents",
-            creator: "Tame Impala",
-            note: "Sonically rich and endlessly replayable.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [
-          {
-            title: "Lex Fridman Podcast",
-            note: "Long-form conversations with fascinating people from science, tech, and philosophy.",
-          },
-          {
-            title: "How I Built This",
-            note: "Founders telling the real story behind iconic companies.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [
-          {
-            title: "Arc Browser",
-            note: "Completely rethinks the browser. Once you use it you can't go back.",
-          },
-          {
-            title: "Notion",
-            note: "Where I track projects, notes, and everything in between.",
-          },
-        ],
+        items: [],
       },
     ],
   },
@@ -200,61 +165,41 @@ const contentByYear: YearContent[] = [
         category: "Books",
         emoji: "📚",
         items: [
-          {
-            title: "Deep Work",
-            creator: "Cal Newport",
-            note: "The book that convinced me to protect my focused hours like they're sacred.",
-          },
-          {
-            title: "Sapiens",
-            creator: "Yuval Noah Harari",
-            note: "A sweeping story of how humans came to dominate the planet — and what it cost.",
-          },
+          { title: "The Bible", creator: "", note: "" },
+          { title: "Never Split the Difference", creator: "Chris Voss", note: "" },
+          { title: "Delighting in the Trinity", creator: "Michael Reeves", note: "" },
+          { title: "Emotionally Healthy Spirituality", creator: "Peter Scazzero", note: "" },
+          { title: "The Hard Thing About Hard Things", creator: "Ben Horowitz", note: "" },
+          { title: "10x Is Easier Than 2x", creator: "Dan Sullivan & Benjamin Hardy", note: "" },
+          { title: "Essentialism", creator: "Greg McKeown", note: "" },
+          { title: "Don't Shoot the Dog", creator: "Karen Pryor", note: "" },
+          { title: "Measure What Matters", creator: "John Doerr", note: "" },
+          { title: "Outlive", creator: "Peter Attia", note: "" },
+          { title: "The War on the West", creator: "Douglas Murray", note: "" },
+          { title: "The Cost of Discipleship", creator: "Dietrich Bonhoeffer", note: "" },
+          { title: "The Emotionally Healthy Leader", creator: "Peter Scazzero", note: "" },
+          { title: "Never Finished", creator: "David Goggins", note: "" },
+          { title: "Deep Work", creator: "Cal Newport", note: "" },
+          { title: "The Idiot", creator: "Fyodor Dostoevsky", note: "" },
+          { title: "The Obstacle Is the Way", creator: "Ryan Holiday", note: "" },
+          { title: "The Three-Body Problem", creator: "Liu Cixin", note: "" },
+          { title: "The Dark Forest", creator: "Liu Cixin", note: "" },
         ],
       },
       {
         category: "Music",
         emoji: "🎵",
-        items: [
-          {
-            title: "In Rainbows",
-            creator: "Radiohead",
-            note: "A perfect album. Front to back, every track earns its place.",
-          },
-          {
-            title: "After Hours",
-            creator: "The Weeknd",
-            note: "Atmospheric and cinematic — great for late nights.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [
-          {
-            title: "The Tim Ferriss Show",
-            note: "Deconstruction of world-class performers — always something actionable.",
-          },
-          {
-            title: "Darknet Diaries",
-            note: "True stories from the dark side of the internet. Endlessly fascinating.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [
-          {
-            title: "Linear",
-            note: "The best issue tracker I've used. Fast, opinionated, and gets out of the way.",
-          },
-          {
-            title: "Figma",
-            note: "Still the gold standard for collaborative design work.",
-          },
-        ],
+        items: [],
       },
     ],
   },
@@ -265,61 +210,35 @@ const contentByYear: YearContent[] = [
         category: "Books",
         emoji: "📚",
         items: [
-          {
-            title: "The Pragmatic Programmer",
-            creator: "Hunt & Thomas",
-            note: "Timeless advice on the craft of software — relevant regardless of your stack.",
-          },
-          {
-            title: "Atomic Habits",
-            creator: "James Clear",
-            note: "Changed how I think about behavior change and identity.",
-          },
+          { title: "Zero to One", creator: "Peter Thiel", note: "" },
+          { title: "Practicing His Presence", creator: "Brother Lawrence", note: "" },
+          { title: "The 4-Hour Chef", creator: "Timothy Ferriss", note: "" },
+          { title: "Ready Player One", creator: "Ernest Cline", note: "" },
+          { title: "You Are What You Love", creator: "James K.A. Smith", note: "" },
+          { title: "Island", creator: "Aldous Huxley", note: "" },
+          { title: "Not the Way It's Supposed to Be: A Breviary of Sin", creator: "Cornelius Plantinga Jr.", note: "" },
+          { title: "Killing Kryptonite", creator: "John Bevere", note: "" },
+          { title: "Crime and Punishment", creator: "Fyodor Dostoevsky", note: "" },
+          { title: "Theodicy of Love", creator: "John C. Peckham", note: "" },
+          { title: "Can't Hurt Me", creator: "David Goggins", note: "" },
+          { title: "Atlas Shrugged", creator: "Ayn Rand", note: "" },
+          { title: "Jaws: The Story of a Hidden Epidemic", creator: "Sandra Kahn & Paul R. Ehrlich", note: "" },
         ],
       },
       {
         category: "Music",
         emoji: "🎵",
-        items: [
-          {
-            title: "Certified Lover Boy",
-            creator: "Drake",
-            note: "Kept this one on repeat for most of the year.",
-          },
-          {
-            title: "Planet Her",
-            creator: "Doja Cat",
-            note: "Catchy, polished, and hard to stop listening to.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [
-          {
-            title: "Masters of Scale",
-            note: "Reid Hoffman interviewing founders on how they grew their companies.",
-          },
-          {
-            title: "The Knowledge Project",
-            note: "Shane Parrish on mental models and clear thinking.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [
-          {
-            title: "Readwise",
-            note: "Resurfaces highlights from my books and articles daily. Invaluable.",
-          },
-          {
-            title: "Vercel",
-            note: "Deploying web projects has never felt this seamless.",
-          },
-        ],
+        items: [],
       },
     ],
   },
@@ -331,60 +250,91 @@ const contentByYear: YearContent[] = [
         emoji: "📚",
         items: [
           {
-            title: "Zero to One",
-            creator: "Peter Thiel",
-            note: "Contrarian thinking about startups and what it means to truly innovate.",
+            title: "Atomic Habits",
+            creator: "James Clear",
+            note: "The book that kicked off a lot of self-transformation for me. Identity-based habit change.",
           },
           {
-            title: "The War of Art",
-            creator: "Steven Pressfield",
-            note: "Short and brutal — the best book on overcoming resistance to creative work.",
+            title: "Brave New World",
+            creator: "Aldous Huxley",
+            note: "A chilling vision of a society engineered for comfort at the cost of truth and freedom.",
+          },
+          {
+            title: "Man's Search for Meaning",
+            creator: "Viktor Frankl",
+            note: "Written in Auschwitz. One of the most powerful arguments for finding purpose in suffering.",
+          },
+          {
+            title: "Ruthless Elimination of Hurry",
+            creator: "John Mark Comer",
+            note: "Slowing down as a spiritual discipline. Changed how I think about rest and pace of life.",
+          },
+          {
+            title: "Breath: The New Science of a Lost Art",
+            creator: "James Nestor",
+            note: "Fascinating deep dive into how breathing affects nearly everything about your health.",
+          },
+          {
+            title: "Fahrenheit 451",
+            creator: "Ray Bradbury",
+            note: "A warning about a world that burns books. Eerily relevant.",
+          },
+          {
+            title: "How to Win Friends and Influence People",
+            creator: "Dale Carnegie",
+            note: "Old but timeless. Genuinely made me a better listener.",
+          },
+          {
+            title: "Mere Christianity",
+            creator: "C.S. Lewis",
+            note: "The most logical, clear-headed case for Christianity I've ever read.",
+          },
+          {
+            title: "Mastery: The Keys to Success and Long-Term Fulfillment",
+            creator: "George Leonard",
+            note: "About embracing the plateau. The process is the point.",
+          },
+          {
+            title: "Letters to the Church",
+            creator: "Francis Chan",
+            note: "A gut-punch call back to what the church is actually supposed to be.",
+          },
+          {
+            title: "The Four Loves",
+            creator: "C.S. Lewis",
+            note: "Lewis unpacks affection, friendship, eros, and charity with his usual precision.",
+          },
+          {
+            title: "The Catcher in the Rye",
+            creator: "J.D. Salinger",
+            note: "Classic. Holden Caulfield is annoying in all the right ways.",
+          },
+          {
+            title: "Supernatural",
+            creator: "Michael Heiser",
+            note: "Completely changed how I read the Old Testament. The divine council worldview is mind-expanding.",
+          },
+          {
+            title: "Demons",
+            creator: "Fyodor Dostoevsky",
+            note: "Dense but worth it. A prophetic look at what radical ideology does to a community.",
           },
         ],
       },
       {
         category: "Music",
         emoji: "🎵",
-        items: [
-          {
-            title: "SOUR",
-            creator: "Olivia Rodrigo",
-            note: "Debut albums rarely hit this hard. Every song landed.",
-          },
-          {
-            title: "Donda",
-            creator: "Kanye West",
-            note: "Ambitious and sprawling — some of the best production he's ever done.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [
-          {
-            title: "My First Million",
-            note: "Brainstorming business ideas with energy and genuine curiosity.",
-          },
-          {
-            title: "Radiolab",
-            note: "Science storytelling at its finest — always leaves me thinking.",
-          },
-        ],
+        items: [],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [
-          {
-            title: "Roam Research",
-            note: "Networked note-taking that changed how I connect ideas.",
-          },
-          {
-            title: "Superhuman",
-            note: "Email that actually feels fast. Worth every penny for the habit it builds.",
-          },
-        ],
+        items: [],
       },
     ],
   },
@@ -434,17 +384,24 @@ export default function ContentSection() {
         </div>
 
         {/* Categories grid */}
-        {activeContent && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {activeContent.categories.map((cat) => (
-              <div
-                key={cat.category}
-                className="bg-gray-50 rounded-2xl border border-gray-200 overflow-hidden"
-              >
-                <div className="px-6 py-4 border-b border-gray-100 flex items-center gap-3">
-                  <span className="text-2xl">{cat.emoji}</span>
-                  <h3 className="text-lg font-bold text-gray-900">{cat.category}</h3>
-                </div>
+        {activeContent && (() => {
+          const renderCard = (cat: Category) => (
+            <div
+              key={cat.category}
+              className="bg-gray-50 rounded-2xl border border-gray-200 overflow-hidden"
+            >
+              <div className="px-6 py-4 border-b border-gray-100 flex items-center gap-3">
+                <span className="text-2xl">{cat.emoji}</span>
+                <h3 className="text-lg font-bold text-gray-900">{cat.category}</h3>
+                {cat.category === "Books" && (
+                  <span className="ml-auto text-xs font-semibold text-yellow-700 bg-yellow-100 px-2.5 py-1 rounded-full">
+                    {cat.items.length} books
+                  </span>
+                )}
+              </div>
+              {cat.items.length === 0 ? (
+                <p className="px-6 py-5 text-sm text-gray-400 italic">Coming soon</p>
+              ) : (
                 <ul className="divide-y divide-gray-100">
                   {cat.items.map((item, i) => (
                     <li key={i} className="px-6 py-4">
@@ -459,18 +416,33 @@ export default function ContentSection() {
                               </span>
                             )}
                           </p>
-                          <p className="text-gray-500 text-sm mt-0.5 leading-relaxed">
-                            {item.note}
-                          </p>
                         </div>
                       </div>
                     </li>
                   ))}
                 </ul>
+              )}
+            </div>
+          );
+
+          const books = activeContent.categories.find((c) => c.category === "Books");
+          const rightOrder = ["Scriptures, Ideas & Philosophies", "Podcasts", "Music"];
+          const rightCats = rightOrder
+            .map((name) => activeContent.categories.find((c) => c.category === name))
+            .filter((c): c is Category => c !== undefined);
+
+          return (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+              {/* Left: Books — full height */}
+              {books && renderCard(books)}
+
+              {/* Right: Scriptures → Podcasts → Music stacked */}
+              <div className="flex flex-col gap-6">
+                {rightCats.map((cat) => renderCard(cat))}
               </div>
-            ))}
-          </div>
-        )}
+            </div>
+          );
+        })()}
 
         {/* Empty state */}
         {!activeContent && (
