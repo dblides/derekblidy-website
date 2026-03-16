@@ -10,6 +10,7 @@ type ContentItem = {
   title: string;
   creator?: string;
   note: string;
+  url?: string;
 };
 
 type Category = {
@@ -334,7 +335,9 @@ const contentByYear: YearContent[] = [
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [],
+        items: [
+          { title: "How to Get Rich Without Getting Lucky", creator: "Naval Ravikant (Twitter thread)", note: "", url: "https://x.com/naval/status/1002103360646823936" },
+        ],
       },
     ],
   },
@@ -409,7 +412,13 @@ export default function ContentSection() {
                         <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-yellow-400" />
                         <div className="min-w-0">
                           <p className="font-semibold text-gray-900 text-sm">
-                            {item.title}
+                            {item.url ? (
+                              <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
+                                {item.title}
+                              </a>
+                            ) : (
+                              item.title
+                            )}
                             {item.creator && (
                               <span className="font-normal text-gray-400 ml-1">
                                 by {item.creator}

@@ -16,8 +16,14 @@ export const metadata: Metadata = {
   description: "Personal website of Derek Blidy — bio, photos, blog, and more.",
   openGraph: {
     title: "Derek Blidy",
-    description: "Personal website of Derek Blidy",
+    description: "Personal website of Derek Blidy — photos, life updates & what I'm into.",
     type: "website",
+    siteName: "Derek Blidy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Derek Blidy",
+    description: "Personal website of Derek Blidy — photos, life updates & what I'm into.",
   },
 };
 

@@ -44,6 +44,11 @@ const entries: TimelineEntry[] = [
     date: "January 2024",
   },
   {
+    emoji: "🏃",
+    description: "Chicago Marathon",
+    date: "October 2023",
+  },
+  {
     emoji: "🌍",
     description: "First trip to Europe",
     date: "April 2023",
@@ -161,6 +166,11 @@ const entries: TimelineEntry[] = [
   {
     emoji: "🎥",
     description: "Videography internship at Summit Ministries, CO",
+    date: "June 2018",
+  },
+  {
+    emoji: "⛰️",
+    description: "Hiked Pikes Peak",
     date: "June 2018",
   },
   {
