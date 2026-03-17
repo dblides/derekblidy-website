@@ -34,6 +34,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.variable}>
+      <head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Derek Blidy"
+          href="/feed.xml"
+        />
+      </head>
       <body className="font-sans antialiased bg-white text-gray-900">
         <Header />
         <main>{children}</main>

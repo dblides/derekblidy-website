@@ -5,7 +5,9 @@
       "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
       "Read(//Users/derekblidy/.nvm/**)",
       "Read(//Users/derekblidy/.bun/**)",
-      "Bash(echo $PATH)"
+      "Bash(echo $PATH)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

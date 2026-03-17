@@ -325,12 +325,23 @@ const contentByYear: YearContent[] = [
       {
         category: "Music",
         emoji: "🎵",
-        items: [],
+        items: [
+          { title: "All I Want", creator: "Red Rocks Worship", note: "" },
+          { title: "Refiner", creator: "Maverick City", note: "" },
+          { title: "Pelota", creator: "Khruangbin", note: "" },
+          { title: "When I Hear the Praises Start", creator: "Keith Green", note: "" },
+          { title: "Cruisin'", creator: "Smokey Robinson", note: "" },
+          { title: "All Night Long", creator: "Mary Jane Girls", note: "" },
+        ],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [],
+        items: [
+          { title: "The Tim Dillon Show", creator: "Tim Dillon", note: "" },
+          { title: "The Portal", creator: "Eric Weinstein", note: "" },
+          { title: "Lex Fridman Podcast", creator: "Lex Fridman", note: "" },
+        ],
       },
       {
         category: "Scriptures, Ideas & Philosophies",

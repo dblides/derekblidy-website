@@ -94,6 +94,11 @@ const entries: TimelineEntry[] = [
     date: "August 2021",
   },
   {
+    emoji: "🏙️",
+    description: "Move to Wicker Park with Kayla",
+    date: "May 2021",
+  },
+  {
     emoji: "🐶",
     description: "Adopted Milly",
     date: "April 2021",
@@ -192,6 +197,11 @@ const entries: TimelineEntry[] = [
     emoji: "🏫",
     description: "Start Illinois State",
     date: "August 2015",
+  },
+  {
+    emoji: "🏈",
+    description: "Started playing football",
+    date: "August 2011",
   },
   {
     emoji: "🏫",
