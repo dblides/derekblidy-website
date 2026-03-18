@@ -4,14 +4,13 @@ import Image from "next/image";
 const stripPhotos = [
   "/Main%20photos/IMG_0420.JPG",
   "/Main%20photos/IMG_1958.jpeg",
-  "/Main%20photos/IMG_4363.jpeg",
+  "/Main%20photos/alien.jpeg",
   "/Main%20photos/IMG_5900.jpeg",
   "/Main%20photos/472326607_18480429754018863_7057591190755462964_n.jpg",
   "/Main%20photos/68821927338__C6E9FC0B-49BD-40C9-884C-0B762C717351.jpeg",
   "/Main%20photos/IMG_0046.JPG",
   "/Main%20photos/IMG_1182.jpeg",
   "/Main%20photos/IMG_5948.jpeg",
-  "/Main%20photos/alien.jpeg",
 ];
 
 // Duplicate for seamless infinite loop
