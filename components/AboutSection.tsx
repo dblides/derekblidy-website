@@ -11,6 +11,7 @@ const stripPhotos = [
   "/Main%20photos/IMG_0046.JPG",
   "/Main%20photos/IMG_1182.jpeg",
   "/Main%20photos/IMG_5948.jpeg",
+  "/Main%20photos/alien.jpeg",
 ];
 
 // Duplicate for seamless infinite loop
