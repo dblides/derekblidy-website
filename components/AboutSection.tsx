@@ -18,7 +18,7 @@ const loopPhotos = [...stripPhotos, ...stripPhotos];
 
 export default function AboutSection() {
   return (
-    <section id="about" className="pt-10 pb-24 bg-white overflow-hidden">
+    <section id="about" className="pt-0 pb-24 bg-white overflow-hidden">
 
       {/* ── Scrolling photo strip ── */}
       <div className="relative w-full mb-14 overflow-hidden">

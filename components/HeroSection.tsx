@@ -15,7 +15,7 @@ function scrollTo(href: string) {
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-white flex items-center justify-center pt-16 pb-8 relative overflow-hidden">
+    <section className="min-h-screen bg-white flex items-center justify-center pt-16 pb-0 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-20 right-0 w-96 h-96 bg-yellow-400/10 rounded-full translate-x-1/2 blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-yellow-400/10 rounded-full -translate-x-1/2 blur-3xl pointer-events-none" />
