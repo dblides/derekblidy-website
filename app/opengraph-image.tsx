@@ -1,21 +1,24 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "fs";
+import { join } from "path";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 export const alt = "Derek Blidy";
 export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const contentType = "image/jpeg";
 
-export default async function Image() {
-  const baseUrl =
-    process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000";
+export default function Image() {
+  const imgBuffer = readFileSync(
+    join(process.cwd(), "public", "Main photos", "alien.jpeg")
+  );
+  const base64 = imgBuffer.toString("base64");
+  const src = `data:image/jpeg;base64,${base64}`;
 
   return new ImageResponse(
     (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        src={`${baseUrl}/Main%20photos/alien.jpeg`}
+        src={src}
         alt="Derek Blidy"
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
