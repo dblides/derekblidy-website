@@ -190,7 +190,9 @@ const contentByYear: YearContent[] = [
       {
         category: "Music",
         emoji: "🎵",
-        items: [],
+        items: [
+          { title: "Binaural Beats: Focus", creator: "", note: "" },
+        ],
       },
       {
         category: "Podcasts",
@@ -229,17 +231,28 @@ const contentByYear: YearContent[] = [
       {
         category: "Music",
         emoji: "🎵",
-        items: [],
+        items: [
+          { title: "As the Deer", creator: "Shane & Shane", note: "" },
+          { title: "'Tis So Sweet to Trust in Jesus", creator: "", note: "" },
+          { title: "Battle Hymn of the Republic", creator: "Stryper", note: "" },
+        ],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [],
+        items: [
+          { title: "The Joe Rogan Experience", creator: "Joe Rogan", note: "" },
+          { title: "The Tim Dillon Show", creator: "Tim Dillon", note: "" },
+          { title: "The Tim Ferriss Show", creator: "Tim Ferriss", note: "" },
+        ],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [],
+        items: [
+          { title: "Philippians 4:4-9", creator: "", note: "" },
+          { title: "Stoicism", creator: "", note: "" },
+        ],
       },
     ],
   },
