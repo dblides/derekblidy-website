@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const beliefs = [
   "Everyone pretty much gets what they want out of life. Most of us lie about what we want.",
   "Not wanting something is just as good as having it.",
-  "I try as many new things as possible. I stop as soon as I realize it's not working.",
+
   "Anytime I'm faced with dissatisfaction I only have 3 choices: Change, Accept, or Leave. Most of life's frustrations come from mentally desiring change but acting in acceptance.",
   "All advice is situational. You can find incredible advice that is completely contradicting. Discernment is the meta-skill: knowing when to apply what.",
   "Life basically comes down to hard now, easy later, or easy now, hard later.",

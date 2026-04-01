@@ -11,6 +11,7 @@ const roboto = Roboto({
   display: "swap",
 });
 
+
 export const metadata: Metadata = {
   title: "Derek Blidy",
   description: "Personal website of Derek Blidy — bio, photos, blog, and more.",
