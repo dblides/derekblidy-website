@@ -38,6 +38,7 @@ const contentByYear: YearContent[] = [
           { title: "The Strength of the Few", creator: "James Islington", note: "" },
           { title: "How to Fail at Almost Everything and Still Win Big", creator: "Scott Adams", note: "" },
           { title: "Economics in One Lesson", creator: "Henry Hazlitt", note: "" },
+          { title: "The Death of Ivan Ilyich", creator: "Leo Tolstoy", note: "" },
         ],
       },
       {
@@ -58,7 +59,7 @@ const contentByYear: YearContent[] = [
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
         items: [
-          // Add your 2026 tools here
+          { title: "Morning Pages", creator: "", note: "" },
         ],
       },
     ],
@@ -98,17 +99,31 @@ const contentByYear: YearContent[] = [
       {
         category: "Music",
         emoji: "🎵",
-        items: [],
+        items: [
+          { title: "I Will Glory in My Redeemer", creator: "Sovereign Grace Music", note: "" },
+          { title: "My Reward", creator: "UPPERROOM", note: "" },
+          { title: "In Dreams", creator: "Sierra Ferrell", note: "" },
+          { title: "Veni Creator Spiritus", creator: "The Cistercian Monks of Stift Heiligenkreuz", note: "" },
+        ],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [],
+        items: [
+          { title: "TBPN", creator: "", note: "" },
+          { title: "All In", creator: "", note: "" },
+          { title: "War Mode", creator: "", note: "" },
+        ],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [],
+        items: [
+          { title: "2 Timothy 2:21", creator: "Therefore, if anyone cleanses himself from what is dishonorable, he will be a vessel for honorable use, set apart as holy, useful to the master of the house, ready for every good work.", note: "" },
+          { title: "Hebrews 12:14", creator: "Make every effort to live in peace with everyone and to be holy; without holiness no one will see the Lord.", note: "" },
+          { title: "Psalm 34:11-14", creator: "Come, my children, listen to me; I will teach you the fear of the LORD. Whoever of you loves life and desires to see many good days, keep your tongue from evil and your lips from telling lies. Turn from evil and do good; seek peace and pursue it.", note: "" },
+          { title: "1 Thessalonians 5:16", creator: "Rejoice always, pray continually, give thanks in all circumstances; for this is God's will for you in Christ Jesus.", note: "" },
+        ],
       },
     ],
   },
@@ -145,17 +160,27 @@ const contentByYear: YearContent[] = [
       {
         category: "Music",
         emoji: "🎵",
-        items: [],
+        items: [
+          { title: "You Saved Me", creator: "UPPERROOM", note: "" },
+          { title: "Spring Up a Well", creator: "Phil Wickham", note: "" },
+          { title: "Pange Lingua Gloriosi", creator: "Harry Hagan OSB", note: "" },
+        ],
       },
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [],
+        items: [
+          { title: "Huberman Lab", creator: "Andrew Huberman", note: "" },
+          { title: "a16z Podcast", creator: "Andreessen Horowitz", note: "" },
+          { title: "First15", creator: "", note: "" },
+        ],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [],
+        items: [
+          { title: "John 17:17", creator: "Sanctify them in the truth; your word is truth.", note: "" },
+        ],
       },
     ],
   },
@@ -197,12 +222,16 @@ const contentByYear: YearContent[] = [
       {
         category: "Podcasts",
         emoji: "🎙️",
-        items: [],
+        items: [
+          { title: "JRE #1212", creator: "Joe Rogan", note: "" },
+        ],
       },
       {
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
-        items: [],
+        items: [
+          { title: "Finding Physical Limitations", creator: "", note: "" },
+        ],
       },
     ],
   },
@@ -250,7 +279,7 @@ const contentByYear: YearContent[] = [
         category: "Scriptures, Ideas & Philosophies",
         emoji: "💡",
         items: [
-          { title: "Philippians 4:4-9", creator: "", note: "" },
+          { title: "Philippians 4:4-9", creator: "Rejoice in the Lord always. I will say it again: Rejoice! Let your gentleness be evident to all. The Lord is near. Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus. Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable — if anything is excellent or praiseworthy — think about such things.", note: "" },
           { title: "Stoicism", creator: "", note: "" },
         ],
       },
