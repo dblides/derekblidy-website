@@ -13,7 +13,7 @@ function scrollTo(href: string) {
   if (el) el.scrollIntoView({ behavior: "smooth" });
 }
 
-export default function HeroSection() {
+export default function HeroSection({ lastUpdated }: { lastUpdated?: string }) {
   return (
     <section className="min-h-screen bg-white flex items-center justify-center pt-16 pb-0 relative overflow-hidden">
       {/* Background decoration */}
@@ -22,11 +22,13 @@ export default function HeroSection() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 text-yellow-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-8">
-            <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
-            Available for conversations
-          </div>
+          {/* Last updated badge */}
+          {lastUpdated && (
+            <div className="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 text-yellow-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-8">
+              <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
+              Last updated {lastUpdated}
+            </div>
+          )}
 
           {/* Headline */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-gray-900 leading-tight mb-6">
