@@ -3,13 +3,16 @@
 import { useState, useEffect, useCallback } from "react";
 
 const beliefs = [
+  "Jesus Christ is God.",
   "Everyone pretty much gets what they want out of life. Most of us lie about what we want.",
   "Not wanting something is just as good as having it.",
-  "Anytime I'm faced with dissatisfaction I only have 3 choices: Change, Accept, or Leave. Most of life's frustrations come from mentally desiring change but acting in acceptance.",
+  "Anytime I'm faced with dissatisfaction I only have 3 choices:\n\nChange, Accept, or Leave. Most of life's frustrations come from mentally desiring change but acting in acceptance.",
   "All advice is situational. You can find incredible advice that is completely contradicting. This makes discernment (knowing when to apply what) a key meta skill.",
   "Life basically comes down to hard now, easy later, or easy now, hard later.",
   "In the information age, reducing content consumption is of utmost importance.",
   "Every system is perfectly designed to create the output it creates.",
+  "When you don't know the formula focus on the output. When you know the formula focus on the input.",
+  "Complexity is usually the outcome of avoiding difficult simplicity.",
 ];
 
 export default function BeliefsSection() {
@@ -51,7 +54,7 @@ export default function BeliefsSection() {
           {/* Belief text */}
           <div className="flex-1 min-h-[120px] flex items-center justify-center">
             <p
-              className="text-xl sm:text-2xl font-semibold text-gray-800 leading-snug"
+              className="text-xl sm:text-2xl font-semibold text-gray-800 leading-snug whitespace-pre-line"
               style={{ opacity: fading ? 0 : 1, transition: "opacity 0.3s ease" }}
             >
               {beliefs[current]}

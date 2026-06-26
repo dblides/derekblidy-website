@@ -5,6 +5,7 @@ type TimelineEntry = {
   emoji: string;
   description: string;
   date: string; // e.g. "March 2025" or "2024"
+  url?: string;
 };
 
 const entries: TimelineEntry[] = [
@@ -74,6 +75,12 @@ const entries: TimelineEntry[] = [
     date: "January 2023",
   },
   {
+    emoji: "🎵",
+    description: "Release the Nico Segal and Nikko Washington PlayTogether Collaboration",
+    date: "November 2022",
+    url: "https://playtogether.co/nico-nikko",
+  },
+  {
     emoji: "🏃",
     description: "Ran a solo marathon",
     date: "October 2022",
@@ -124,6 +131,12 @@ const entries: TimelineEntry[] = [
     date: "February 2021",
   },
   {
+    emoji: "🎵",
+    description: "Release the Femdot and Liz Flores PlayTogether Collaboration",
+    date: "November 2020",
+    url: "https://playtogether.co/femdot-flores-delacreme",
+  },
+  {
     emoji: "💰",
     description: "Bought crypto for the first time",
     date: "November 2020",
@@ -159,6 +172,12 @@ const entries: TimelineEntry[] = [
     date: "July 2019",
   },
   {
+    emoji: "🎵",
+    description: "Release the Violet Crime and Julius Bautista PlayTogether Collaboration",
+    date: "May 2019",
+    url: "https://playtogether.co/violetcrime-juliusbautista",
+  },
+  {
     emoji: "🎓",
     description: "Graduate college",
     date: "May 2019",
@@ -167,6 +186,7 @@ const entries: TimelineEntry[] = [
     emoji: "➕",
     description: "Became a cofounder of PlayTogether",
     date: "December 2018",
+    url: "https://playtogether.co/",
   },
   {
     emoji: "❤️",
@@ -270,7 +290,11 @@ export default function TimelineSection() {
                 {/* Content */}
                 <div className="pt-1.5">
                   <p className="text-base font-semibold text-gray-900 leading-snug">
-                    {entry.description}
+                    {entry.url ? (
+                      <a href={entry.url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 underline underline-offset-2 transition-colors">
+                        {entry.description}
+                      </a>
+                    ) : entry.description}
                   </p>
                   <p className="text-sm text-gray-400 mt-0.5">{entry.date}</p>
                 </div>

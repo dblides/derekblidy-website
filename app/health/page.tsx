@@ -14,14 +14,13 @@ const sections: Section[] = [
     items: [
       "Make change in this order: actions, diet, supplements — then if all else fails, pharma.",
       "I don't care about health protocols I can't practically sustain for a year.",
-      "I have no desire to have a 3 hour morning routine.",
     ],
   },
   {
     title: "Daily Habits",
     items: [
       "10k steps",
-      "Maximum protein",
+      "Maximum protein (ideally 120g+)",
       "Minimum carbs (I don't track)",
       "30 min strength",
       "30 min zone 2 cardio",
@@ -46,7 +45,6 @@ const sections: Section[] = [
     items: [
       "Stretching routine",
       "Wim Hof breathing",
-      "Cold shower",
       "Fasting",
     ],
   },

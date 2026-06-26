@@ -39,6 +39,9 @@ const contentByYear: YearContent[] = [
           { title: "How to Fail at Almost Everything and Still Win Big", creator: "Scott Adams", note: "" },
           { title: "Economics in One Lesson", creator: "Henry Hazlitt", note: "" },
           { title: "The Death of Ivan Ilyich", creator: "Leo Tolstoy", note: "" },
+          { title: "Disquiet Gods", creator: "Christopher Ruocchio", note: "" },
+          { title: "Shadows Upon Time", creator: "Christopher Ruocchio", note: "" },
+          { title: "The Pursuit of God", creator: "A.W. Tozer", note: "" },
         ],
       },
       {
