@@ -43,6 +43,7 @@ const entries: TimelineEntry[] = [
     emoji: "🎤",
     description: "Preach my first sermon",
     date: "May 2025",
+    url: "https://www.youtube.com/watch?v=7D0BPPLolkc&t=1310s",
   },
   {
     emoji: "💼",
@@ -187,6 +188,11 @@ const entries: TimelineEntry[] = [
     description: "Became a cofounder of PlayTogether",
     date: "December 2018",
     url: "https://playtogether.co/",
+  },
+  {
+    emoji: "🎬",
+    description: "Drove to Canada with Ben Justice to film a Violet Crime album being recorded",
+    date: "December 2018",
   },
   {
     emoji: "❤️",
