@@ -46,6 +46,11 @@ const entries: TimelineEntry[] = [
     url: "https://www.youtube.com/watch?v=7D0BPPLolkc&t=1310s",
   },
   {
+    emoji: "🪂",
+    description: "First time skydiving",
+    date: "April 2025",
+  },
+  {
     emoji: "💼",
     description: "Quit corporate world, went full time on Talas",
     date: "September 2024",
