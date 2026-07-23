@@ -69,6 +69,7 @@ const contentByYear: YearContent[] = [
           { title: "Morning Pages", creator: "", note: "" },
           { title: "Galatians 6:14", creator: "May I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.", note: "" },
           { title: "Isaiah 55:8-9", creator: "For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.", note: "" },
+          { title: "Matthew 6:33-34", creator: "But seek first his kingdom and his righteousness, and all these things will be given to you as well. Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.", note: "" },
         ],
       },
     ],
