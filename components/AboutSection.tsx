@@ -77,7 +77,7 @@ export default function AboutSection() {
                 spend the majority of my time building my company Talas. When
                 I&apos;m not working on Talas I&apos;m reading, praying,
                 exercising or exploring my new curiosity of the year including
-                marathon running, blockchain, Sauerkraut, and much more.
+                marathon running, blockchain, and much more.
               </p>
               <p>
                 In 2021 I began to cut social media out of my life
