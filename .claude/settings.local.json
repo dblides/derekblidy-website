@@ -10,7 +10,11 @@
       "Bash(git push:*)",
       "Bash(git add:*)",
       "Bash(npm run:*)",
-      "Bash(lsof -ti:3000)"
+      "Bash(lsof -ti:3000)",
+      "Bash(curl -sI http://localhost:8934/index.html)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)",
+      "Bash(python3 /private/tmp/claude-501/-Users-derekblidy-Documents-Blidy-Website/4867778b-b229-4a81-9447-7ae5197bcc42/scratchpad/extract_img.py /Users/derekblidy/.claude/projects/-Users-derekblidy-Documents-Blidy-Website/4867778b-b229-4a81-9447-7ae5197bcc42/tool-results/mcp-Claude_Browser-javascript_tool-1785966298599.txt /private/tmp/claude-501/-Users-derekblidy-Documents-Blidy-Website/4867778b-b229-4a81-9447-7ae5197bcc42/scratchpad/idle.png)"
     ]
   }
 }

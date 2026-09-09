@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RED FROG — Chicago Night Patrol</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game" width="960" height="540"></canvas>
+
+    <div id="titleScreen" class="overlay">
+      <h1 class="logo">RED FROG</h1>
+      <p class="subtitle">A Chicago Night Patrol</p>
+      <div class="controls">
+        <p><span class="key">← → / A D</span> Move</p>
+        <p><span class="key">↑ ↓ / W S</span> Step up/down</p>
+        <p><span class="key">Z</span> Spray (wake &amp; push back)</p>
+        <p><span class="key">X</span> Toss candy (comfort &amp; rescue)</p>
+      </div>
+      <p class="prompt">Press ENTER to head out</p>
+    </div>
+
+    <div id="winScreen" class="overlay hidden">
+      <h1 class="logo small">BLOCK SECURED</h1>
+      <p class="subtitle" id="winStats">Everyone's safe tonight.</p>
+      <p class="prompt">Press ENTER to patrol again</p>
+    </div>
+
+    <div id="hud">
+      <div class="hud-panel left">
+        <div class="portrait">
+          <svg viewBox="0 0 40 40" width="40" height="40">
+            <circle cx="20" cy="22" r="16" fill="#c11f2a"/>
+            <ellipse cx="12" cy="10" rx="6" ry="6" fill="#c11f2a"/>
+            <ellipse cx="28" cy="10" rx="6" ry="6" fill="#c11f2a"/>
+            <circle cx="12" cy="10" r="2.6" fill="#f5e14c"/>
+            <circle cx="28" cy="10" r="2.6" fill="#f5e14c"/>
+            <path d="M6 18 Q20 12 34 18" stroke="#2b2b1e" stroke-width="3" fill="none"/>
+          </svg>
+        </div>
+        <div class="hud-text">
+          <div class="name">RED FROG</div>
+          <div id="healthBar" class="bar"></div>
+        </div>
+      </div>
+      <div class="hud-panel right">
+        <div class="hud-text right-align">
+          <div class="name">RESCUED</div>
+          <div id="rescueCount" class="count">0 / 0</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
