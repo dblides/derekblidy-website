@@ -15,6 +15,16 @@ const entries: TimelineEntry[] = [
     date: "2026",
   },
   {
+    emoji: "💒",
+    description: "First time officiating a wedding",
+    date: "September 2026",
+  },
+  {
+    emoji: "🐸",
+    description: "First time RedFrogging at Lollapalooza",
+    date: "August 2026",
+  },
+  {
     emoji: "🏅",
     description: "Ran a 21K Spartan Race in Colorado Springs",
     date: "May 2026",

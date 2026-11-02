@@ -45,6 +45,9 @@ const contentByYear: YearContent[] = [
           { title: "Disquiet Gods", creator: "Christopher Ruocchio", note: "" },
           { title: "Shadows Upon Time", creator: "Christopher Ruocchio", note: "" },
           { title: "The Pursuit of God", creator: "A.W. Tozer", note: "" },
+          { title: "Good Morning, Holy Spirit", creator: "Benny Hinn", note: "" },
+          { title: "Jade City", creator: "Fonda Lee", note: "" },
+          { title: "Jade War", creator: "Fonda Lee", note: "" },
         ],
       },
       {
